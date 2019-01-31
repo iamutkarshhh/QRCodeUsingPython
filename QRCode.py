@@ -5,6 +5,8 @@ import pyqrcode
 def qrcode():
     #We need to create a Variable first where we will store the link of our Qr Code
     s = "www.google.com"
+    #In 's' We can Pass the custom Message which will be passed using your code it's not neccesary to pass the link onluy you can passs some
+    #integer as well
     #Create another Variable where we will actually create the qrcode passing our
     #variable as a parameter
     url = pyqrcode.create(s)
